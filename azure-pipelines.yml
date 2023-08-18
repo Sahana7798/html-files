@@ -19,7 +19,7 @@ steps:
   inputs:
     awsCredentials: 'service1'
     regionName: 'us-east-1'
-    bucketName: 'azure-new-bucket'
+    bucketName: 'azure-testing'
     globExpressions: '**'
     createBucket: true
     keyManagement: 'awsManaged'
