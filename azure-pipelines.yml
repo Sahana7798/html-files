@@ -21,6 +21,3 @@ steps:
     regionName: 'us-east-1'
     bucketName: 'testing-final'
     globExpressions: '**'
-    createBucket: true
-    keyManagement: 'awsManaged'
-    encryptionAlgorithm: 'AES256'
