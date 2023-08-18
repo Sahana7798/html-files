@@ -17,7 +17,7 @@ steps:
 - task: PublishBuildArtifacts@1
 - task: S3Upload@1
   inputs:
-    awsCredentials: 'service1'
+    awsCredentials: 's3-upload'
     regionName: 'us-east-1'
     bucketName: 'azure-testing'
     globExpressions: '**'
