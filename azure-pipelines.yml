@@ -19,5 +19,5 @@ steps:
   inputs:
     awsCredentials: 'service1'
     regionName: 'us-east-1'
-    bucketName: 'testing-final'
+    bucketName: 'azure-testing'
     globExpressions: '**'
